@@ -29,7 +29,7 @@ RUN mkdir /data/
 RUN mkdir /data/db 
 
 ## Clone GIT repository 
-RUN git clone https://github.com/EBISPOT/OLS.git /opt/OLS \
+RUN git clone https://github.com/brianmarkowitz/OLS.git /opt/OLS \
   && cd  /opt/OLS \
   && git checkout ${OLS_VERSION}
 
