@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 ENV OLS_HOME /opt/OLS
 ENV CATALINA_OPTS "-Xms2g -Xmx2g"
 
-ENV OLS_VERSION e0148b65c8e495d963c77a88bc834d768f071fa1
+ENV OLS_VERSION 078ca43ed2cbb617b6d3e7bff13e9a22afe55de5
 ENV SOLR_VERSION 5.5.3
 
 ADD ols-config.yaml /tmp/		
